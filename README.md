@@ -1,4 +1,7 @@
 # Crime_Prediction
+Crime prediction and analysis are critical components in safeguarding communities. Leveraging data science and machine learning, our study focuses on predicting criminal occurrences, identifying high-risk areas, and visualizing patterns. By employing classification models (including logistic regression, gradient boosting, and random forest), clustering techniques (such as K-means and DBSCAN), and ensemble learning (via gradient boosting and random forest), we empower law enforcement agencies with actionable insights. Our goal is to develop models to predict crime hotspots and extract valuable insights from unstructured crime data.
+
+
 1.Classification
 Logistic regression gives an accuracy of 69% SVM got an accuracy of 70%
 
