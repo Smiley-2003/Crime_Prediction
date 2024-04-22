@@ -1,6 +1,8 @@
 # Crime_Prediction
 Crime prediction and analysis are critical components in safeguarding communities. Leveraging data science and machine learning, our study focuses on predicting criminal occurrences, identifying high-risk areas, and visualizing patterns. By employing classification models (including logistic regression, gradient boosting, and random forest), clustering techniques (such as K-means and DBSCAN), and ensemble learning (via gradient boosting and random forest), we empower law enforcement agencies with actionable insights. Our goal is to develop models to predict crime hotspots and extract valuable insights from unstructured crime data.
 
+INTRODUCTION:
+Crime detection involves the use of various techniques and technologies to identify, analyse, and predict criminal activities. This includes the analysis of crime incidents over time, precision, recall, and F1 score for different classes, as well as the use of ensemble classifiers and deep learning techniques such as the Random Forest Classifier. It covers the implementation of various machine learning models such as Random Forest Classifier, Gradient Boosting Regressor, DBSCAN, K-Means, and Logistic Regression. The document also includes the preprocessing of data, feature extraction, and label encoding. Additionally, it delves into performance evaluation metrics such as accuracy, precision, recall, and F1 score for different classes. The use of visualization techniques, including scatter plots and bar charts. Overall, the document offers a detailed exploration of the application of machine learning algorithms in crime prediction and analysis. The insights into the distribution of crime types, density plot of crime incidents, and the accuracy, macro avg, and weighted avg of crime prediction models. These methods and tools are essential for law enforcement agencies and policymakers to understand crime patterns, allocate resources effectively, and develop strategies for crime prevention and intervention, the importance of crime detection in maintaining public safety, reducing criminal activities, and ensuring the efficient allocation of law enforcement resources. You can also emphasize the role of advanced technologies and data analysis in enhancing crime detection and prevention efforts. 
 
 1.Classification
 Logistic regression gives an accuracy of 69% SVM got an accuracy of 70%
@@ -136,18 +138,6 @@ The model has high precision, recall, and F1-score across multiple classes, with
 Gradient Boosting
 The model has high precision, recall, and F1-score across multiple classes, with an overall accuracy of 0.97. This suggests that the Gradient Boosting Classifier model performs well on the given dataset, similar to the Random Forest Classifier model mentioned earlier. Both models have similar accuracy and performance metrics across different classes.
  
-
-
-
-
-
-
-
-
-
-
-
-
 
 RESULT:
 1.Density Plot
