@@ -2,9 +2,13 @@
 Crime prediction and analysis are critical components in safeguarding communities. Leveraging data science and machine learning, our study focuses on predicting criminal occurrences, identifying high-risk areas, and visualizing patterns. By employing classification models (including logistic regression, gradient boosting, and random forest), clustering techniques (such as K-means and DBSCAN), and ensemble learning (via gradient boosting and random forest), we empower law enforcement agencies with actionable insights. Our goal is to develop models to predict crime hotspots and extract valuable insights from unstructured crime data.
 
 INTRODUCTION:
+
+
 Crime detection involves the use of various techniques and technologies to identify, analyse, and predict criminal activities. This includes the analysis of crime incidents over time, precision, recall, and F1 score for different classes, as well as the use of ensemble classifiers and deep learning techniques such as the Random Forest Classifier. It covers the implementation of various machine learning models such as Random Forest Classifier, Gradient Boosting Regressor, DBSCAN, K-Means, and Logistic Regression. The document also includes the preprocessing of data, feature extraction, and label encoding. Additionally, it delves into performance evaluation metrics such as accuracy, precision, recall, and F1 score for different classes. The use of visualization techniques, including scatter plots and bar charts. Overall, the document offers a detailed exploration of the application of machine learning algorithms in crime prediction and analysis. The insights into the distribution of crime types, density plot of crime incidents, and the accuracy, macro avg, and weighted avg of crime prediction models. These methods and tools are essential for law enforcement agencies and policymakers to understand crime patterns, allocate resources effectively, and develop strategies for crime prevention and intervention, the importance of crime detection in maintaining public safety, reducing criminal activities, and ensuring the efficient allocation of law enforcement resources. You can also emphasize the role of advanced technologies and data analysis in enhancing crime detection and prevention efforts. 
 
 1.Classification
+
+
 Logistic regression gives an accuracy of 69% SVM got an accuracy of 70%
 
 2. Clustering
@@ -14,6 +18,8 @@ A silhouette score of 0.68 indicates that the clusters produced by DBSCAN,mean s
 the model has high precision, recall, and F1-score across multiple classes, with an overall accuracy of 0.97. This suggests that the Random Forest Classifier model performs well on the given dataset.
 2.Gradient Boosting
 The model has high precision, recall, and F1-score across multiple classes, with an overall accuracy of 0.97. This suggests that the Gradient Boosting Classifier model performs well on the given dataset, similar to the Random Forest Classifier model mentioned earlier. Both models have similar accuracy and performance metrics across different classes.
+
+
 GRAPHS
 1.Performance Metrics Graphs
 
@@ -35,27 +41,51 @@ A bar chart to visualize the distribution of crime types based on the count of i
 
 A bar plot to visualize the distribution of crime incidents by hour of the day, providing insights into the variations in crime activity throughout the day.
 
+
+
+
 TOOLS USED:
 
 Python Programming Language: 
+
+
+
 Python serves as the primary programming language for developing the project due to its simplicity, readability, and extensive library support.
 
 Matplotlib: 
+
+
 Matplotlib is a plotting library for Python used to visualize data, including images, training/validation accuracy, loss curves, and other metrics. It provides a wide range of functionalities for creating static, interactive, and publication-quality plots.
+
 NumPy: 
+
+
 NumPy is a fundamental package for scientific computing with Python, providing support for multidimensional arrays, mathematical functions, linear algebra operations, and random number generation. It is commonly used for data manipulation and preprocessing tasks.
+
 Sklearn:
 scikit-learn is a powerful machine learning library that provides a wide range of tools for various tasks such as classification, regression, clustering, dimensionality reduction, and more. It offers a plethora of machine learning algorithms, including decision trees, support vector machines, k-means clustering, and more.
+
 Seaborn:
+
 Seaborn is a Python data visualization library built on top of Matplotlib. It simplifies the creation of aesthetically pleasing statistical plots. Seaborn provides a high-level interface for creating various types of plots, including scatter plots, bar plots, box plots, and heatmaps.
+
 Colab : 
+
+
 Google Colab, a cloud-based Jupyter notebook environment, may be used for collaborative development and execution of the project. Colab provides free access to GPU and TPU accelerators, enabling faster model training and experimentation without the need for powerful hardware resources.
+
 
 METHODOLOGY
 
 Data Collection:
+
 Extract crime data from Kaggle.
+
+
+
 Features: crime type, year, month, day, hour, minute, time, neighbourhood, latitude, longitude.
+
+
 Data Preprocessing:
     Drop missing values columns
 •	Identify columns with a significant number  of missing values. 
